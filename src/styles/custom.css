@@ -1,0 +1,37 @@
+/* Custom styles for Kent Schaeffer's Portfolio */
+
+:root {
+  --sl-color-accent: hsl(210, 100%, 50%);
+  --sl-color-accent-low: hsl(210, 100%, 95%);
+  --sl-color-accent-high: hsl(210, 100%, 20%);
+}
+
+pre {
+  border-radius: 8px;
+  padding: 1.5rem !important;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+table th {
+  background-color: var(--sl-color-gray-6);
+  font-weight: 600;
+  text-align: left;
+  padding: 0.75rem 1rem;
+}
+
+table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--sl-color-gray-5);
+}
+
+code:not(pre code) {
+  background-color: var(--sl-color-gray-6);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}

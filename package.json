@@ -1,0 +1,23 @@
+{
+  "name": "docs.kentknowsme.com",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Technical Writing Portfolio for Kent Schaeffer",
+  "author": "Kent Schaeffer <kent@kentknowsme.com",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "0.9.5",
+    "@astrojs/starlight": "^0.36.1",
+    "astro": "^5.6.1",
+    "sharp": "^0.34.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

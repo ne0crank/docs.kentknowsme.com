@@ -9,13 +9,15 @@ export default defineConfig({
     starlight({
       title: 'Kent Schaeffer',
       description: 'Technical Writing Portfolio - API Documentation, Tutorials, and Integration Guides',
-      social: {
-        github: 'https://github.com/ne0crank',
-        linkedin: 'https://www.linkedin.com/in/kentmschaeffer',
-      },
+      social: [
+        { icon: 'github', label: 'GitHub', href: 'https://github.com/ne0crank' },
+        {icon: 'linkedin', label: 'LinkedIn', href: 'https://www.linkedin.com/in/kentmschaeffer'},
+      ],
       logo: {
-        light: './src/assets/logo-light.svg',
-        dark: './src/assets/logo-dark.svg',
+        // light: './src/assets/logo-light.svg',
+        // dark: './src/assets/logo-dark.svg',
+        light: './src/assets/kent-knows-me-logo.svg',
+        dark: './src/assets/kent-knows-me-logo.svg',
         replacesTitle: false,
       },
       customCss: [
